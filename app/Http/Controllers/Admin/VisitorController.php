@@ -21,7 +21,7 @@ class VisitorController extends Controller
         if ($result) {
             return "Get Visitor Detail Success";
         }else{
-            return "Get Visitor Detail Failed";
+            return "Get Visitor Detail <Failed></Failed>";
         }
         
     }
